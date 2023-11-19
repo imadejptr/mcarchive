@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moony Challenge Archives</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body onload="g2048()">
+    <img id="logo" src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/dmoon-1.png">
+    <p id="num"></p>
+    <h1 class="header">Moony Challenge Archives</h1>
+    <center>
+        <a style="font-size: larger;" href="/index.html">Go Back</a>
+        <h1>2048 Leaderboards</h1>
+        <div id="total"></div>
+        <img style="width: 50%;"
+            src="https://cdn.glitch.global/9c8c96bb-a059-45d7-8b2b-d37ee6083aa6/podium.png?v=1680981942942">
+        <h3>Leaderboard:</h3>
+        <ol id="mclb">
+        </ol>
+        <div class="info">
+            <h1>Game Information:</h1>
+            <img style="width: 30%;" src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/510.png">
+            <h1>2048 [NES]</h1>
+            <p class="gameinfo">"NES/FC version of the popular 2048 game. Font and number tile graphics were used with
+                permission from 2048 Mega Drive/Genesis version by Oerg866. The game uses FamiTone2 audio library by
+                Shiru. Many thanks to Shiru and Oerg866." - <a href="https://www.romhacking.net/homebrew/65/"
+                    target="_blank">tsone (ROMHACKING.ORG)</a>. I chose this game because not only did I like
+                this version of the game compared to the online version, but 2048 was literally the game I played back
+                in the day. So I gave it a try and it went well in the end.</p>
+            <hr>
+            <h1>What it looked like on imadejptr (you can also play them too):</h1>
+            <h2>Version 1 (2022-2023)</h2>
+            <ul class="list">
+                <li>
+                    <a href="https://imadejptr-old.glitch.me/c?sys=nes&g=2048-nes&id=510&mc=false" class="box"
+                        target="_blank"><img
+                            src="https://cdn.glitch.global/9c8c96bb-a059-45d7-8b2b-d37ee6083aa6/510.avif"
+                            data-loaded="true">
+                        <div class="badge">NES</div>
+                        <div class="plays-span"><span id="510-display">0</span><span> plays</span></div><span
+                            class="box-title">2048</span>
+                    </a>
+                </li>
+            </ul>
+            <h2>Version 2 (2023-Present)</h2>
+            <ul class="list-f" id="gs">
+                <li><a href="https://imadejptr.glitch.me/go.html?id=510" class="box-f" target="_blank"><img
+                            src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/510.png"
+                            data-loaded="true">
+                        <div class="badge-f">NES</div><span class="box-title-f">2048</span>
+                    </a></li>
+            </ul>
+        </div>
+    </center>
+
+    <script>
+        let rand = Math.floor(Math.random() * 20) + 1;
+        document.getElementById("logo").src = "https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/dmoon-" + rand + ".png";
+        document.getElementById("num").innerHTML = "Number #" + rand;
+        function g2048() {
+            fetch("/assets/json/2048/1.json")
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    mclb(data);
+                })
+                .catch(function (err) {
+                    console.log("error: " + err);
+                });
+
+            function mclb(data) {
+                document.getElementById("total").innerHTML = "Total amount particiapted: " + data.length;
+                var mainContainer = document.getElementById("mclb");
+                data.sort(function (a, b) {
+                    return b.score - a.score
+                })
+                for (var i = 0; i <= data.length; i++) {
+                    let rand = Math.floor(Math.random() * 20) + 1;
+                    var div = document.createElement("li");
+                    div.className = "mclb-list";
+                    div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/dmoon-' + rand + '.png"><span class="mcname">' + data[i].name + '#' + data[i].num + '</span><span class="score">' + data[i].score + "</span>";
+                    mainContainer.appendChild(div);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

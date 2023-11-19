@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i");
+
+:root {
+    --background: rgb(0, 21, 31);
+    --theme: rgb(217, 142, 115);
+    --theme-secondary: rgb(160, 97, 75);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 160, 97, 75;
+}
+
+body {
+    background-color: #00151f;
+    color: white;
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif;
+}
+
+#logo {
+    width: 145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+#num {
+    text-align: center;
+    font-size: large;
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+}
+
+.btn span.icon {
+    background: url("https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/th3skeleton-d1.jpg") no-repeat;
+    float: left;
+    width: 10px;
+    height: 40px;
+}
+
+.partners-container {
+    position: relative;
+}
+
+.partners-container:hover .partners-overlay {
+    opacity: 1;
+}
+
+.partners-overlay {
+    position: absolute;
+    top: 50;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease-in;
+    background-color: rgba(160, 97, 75, 0.8);
+}
+
+@media screen and (max-width: 1350px) {
+    .partners-overlay {
+        display: none;
+    }
+}
+
+.partners-text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+}
+
+.partners {
+    max-height: 500px;
+    border: solid 1px white;
+    display: flex;
+    width: 98%;
+    margin: 5px;
+}
+
+.partners img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+systems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 40px;
+}
+
+.mclb-list {
+    line-height: 75px;
+    width: 60%;
+    background: #00151f;
+    border-radius: .5em;
+    padding: .5em;
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px;
+    border: 2px solid white;
+}
+
+.mclb-list img {
+    float: left;
+    width: 75px;
+    border-radius: .5em;
+    vertical-align: middle;
+    height: fit-content;
+    display: inline-flex;
+    border: 2px solid white;
+}
+
+.mclb-list .mcname {
+    float: left;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+
+.mclb-list .score {
+    float: right;
+    position: relative;
+    display: block;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#day {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #00151f;
+    color: azure;
+    padding: .5em;
+    font-size: larger;
+    border: rgb(255, 255, 255) 3px solid;
+    border-radius: .5em;
+}
+
+
+#total {
+    font-size: large;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.info {
+    border-radius: 50px;
+    box-shadow: 5px 5px 16px black;
+    padding: 24px;
+    width: 80%;
+    margin: 24px auto;
+    height: auto;
+    float: inherit;
+    background: #c88b3a;
+}
+
+.gameinfo {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: left;
+    font-size: 26px;
+    line-height: 2em;
+
+}
+
+.list {
+    font-size: 24px;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .list li {
+    box-sizing: border-box;
+    display: inline-flex;
+    width: 195px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-bottom: 24px
+  }
+  
+  .box {
+    position: relative;
+    display: block;
+    color: #ffffff !important;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 90px;
+    box-shadow: 0 .5rem .9rem rgba(0, 0, 0, .15);
+    border-radius: 7px
+  }
+  
+  .list li a:active {
+    box-shadow: 0 2px 8px 0 #000000
+  }
+  
+  .box img {
+    float: left;
+    width: 171px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 0 0 0 0
+  }
+  
+  .box-title {
+    display: block;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 0 0 7px 7px;
+    color: #c88b3a;
+    text-decoration: none;
+    transition: .3s
+  }
+  
+  .box:hover .box-title {
+    background-color: #c88b3a;
+    color: black;
+  }
+  
+  a.box {
+    text-decoration: none
+  }
+  
+  @media(max-width:640px) {
+    .list-container {
+      flex-direction: column
+    }
+  }
+  
+  @media(max-width:500px) {
+    .list li {
+      width: 50%
+    }
+  
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    background-color: black;
+    color: #c88b3a;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .plays-span {
+    position: absolute;
+    top: 100px;
+    background-color: black;
+    color: #c88b3a;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .list-f {
+    font-size: 24px;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+}
+
+.list-f li {
+    display: inline-flex;
+    width: 195px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-bottom: 24px
+}
+
+.box-f {
+    position: relative;
+    display: block;
+    color: #ffffff !important;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 90px;
+    box-shadow: 0 .5rem .9rem rgba(0, 0, 0, .15);
+    border-radius: 7px
+}
+
+.list-f li a:active {
+    box-shadow: 0 2px 8px 0 #000000
+}
+
+.box-f img {
+    float: left;
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 7px 7px 0 0
+}
+
+.box-title-f {
+    display: block;
+    background-color: rgb(var(--box));
+    padding: 5px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 7px 7px 7px 7px;
+    color: var(--text);
+    text-decoration: none;
+    transition: .3s
+}
+
+.box-f:hover .box-title-f {
+    background-color: var(--text);
+    color: rgb(var(--box));
+}
+
+a.box-f {
+    text-decoration: none
+}
+
+@media(max-width:640px) {
+    .list-container-f {
+        flex-direction: column
+    }
+}
+
+@media(max-width:500px) {
+    .list-f li {
+        width: 50%
+    }
+
+}
+
+.badge-f {
+    position: absolute;
+    top: 10px;
+    background-color: rgb(var(--box));
+    color: var(--text);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    border-radius: 0 4px 4px 0;
+}
+
+.f-badge-f {
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(var(--box));
+    color: var(--text-secondary);
+    padding: 5px;
+    border-radius: 7px;
+    list-style: none;
+}
