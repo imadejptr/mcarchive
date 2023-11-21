@@ -7,11 +7,13 @@ function recent() {
     let dates = '{ "dates" : [' +
         '{ "num":"1" , "date":"11/14/23" },' +
         '{ "num":"2" , "date":"11/15/23" },' +
-        '{ "num":"3" , "date":"11/16/23" } ]}';
+        '{ "num":"3" , "date":"11/16/23" },' +
+        '{ "num":"4" , "date":"11/17/23" },' +
+        '{ "num":"5" , "date":"11/18/23" } ]}';
     let setad = JSON.parse(dates);
     let day = document.getElementById("day");
     let opt = document.createElement("option");
-    let PUTNUMBERHERE = 3;
+    let PUTNUMBERHERE = 5;
     opt.value = PUTNUMBERHERE;
     opt.innerHTML = setad.dates[PUTNUMBERHERE - 1].date + ' <span class="current">(current)</span>';
     opt.selected = true;
@@ -51,6 +53,7 @@ function poop() {
         data.sort(function (a, b) {
             return b.score - a.score
         })
+        console.log(data);
         for (var i = 0; i <= data.length; i++) {
             if (data[i].img == "0") {
                 let rand = Math.floor(Math.random() * 20) + 1;
