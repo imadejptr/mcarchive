@@ -9,7 +9,7 @@ let extM = document.getElementById("moon_ext")
 let mID = document.getElementById("moon");
 
 
-fetch("/assets/json/moons.json")
+fetch("assets/json/moons.json")
     .then((res) => res.json())
     .then((data) => {
         moon = data;
