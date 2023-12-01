@@ -40,7 +40,7 @@ function poop() {
     let e = document.getElementById("mclb");
     e.innerHTML = ""; // clear out old options 
     let day = document.getElementById("day").value;
-    fetch("/assets/json/slope/" + day + ".json")
+    fetch("assets/json/slope/" + day + ".json")
         .then(function (response) {
             return response.json();
         })
