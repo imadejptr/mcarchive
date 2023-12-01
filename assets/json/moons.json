@@ -1,0 +1,172 @@
+[
+    {
+        "name": "The Original",
+        "desc": "This is the base moon cresent that has been here since the beginning of the website. The icon is the Windows version of the 🌙 emoji. Nothing more to say about it.",
+        "num": "1",
+        "c": "true",
+        "c1": "ffc83d",
+        "c2": "eba300",
+        "c3": "000000"
+    },
+    {
+        "name": "Sunset",
+        "desc": "Wanted to make something that was not only easy to make, but clean too. So I went with a gradient design to make it feel like more of a sunset than a moon. I used different degrees for the two different gradients (the main moon and the border) to create a weird effect with the moon that I am a fan of.",
+        "num": "2",
+        "c": "true",
+        "c1": "536c93",
+        "c2": "d6a376",
+        "c3": "536c93 & #d6a376"
+    },
+    {
+        "name": "Earth",
+        "desc": "A pretty easy one to explain, its earth.",
+        "num": "3",
+        "c": "false",
+        "img": "https://cdn.glitch.me/2d6e8d70-57a5-4dd2-b4bb-c1505f83f020/earth.png",
+        "desc2": "I used the same earth picture that I use on the JPTR Agario website."
+    },
+    {
+        "name": "Nosferatu",
+        "desc": "I wanted to add a spongebob reference to the website, so if you thought of spongebob when seeing this then you were thinking the same way I was.",
+        "num": "4",
+        "c": "false",
+        "img": "https://images.theconversation.com/files/453033/original/file-20220318-27-1zmzs5.jpg",
+        "desc2": "Nosferatu is one of many theatrical representations of Dracula, famously making an apperence in Spongebob when the lights were flicking on and off. Nosferatu released in 1922, making a name for itself as one of the first truly scary movies to come out for its time."
+    },
+    {
+        "name": "Pink",
+        "desc": "This is one of a few very simple designs. Just a recolored moon cresent.",
+        "num": "5",
+        "c": "true",
+        "c1": "ffa4ff",
+        "c2": "ff6bff",
+        "c3": "000000"
+    },
+    {
+        "name": "Mint",
+        "desc": "Just like Pink, heres a minty color.",
+        "num": "6",
+        "c": "true",
+        "c1": "5affd6",
+        "c2": "09f4ba",
+        "c3": "000000"
+    },
+    {
+        "name": "Vaporwave",
+        "desc": "A simple gradient that has been done way too many times.",
+        "num": "7",
+        "c": "true",
+        "c1": "e3b3ff",
+        "c2": "72ecff",
+        "c3": "000000"
+    },
+    {
+        "name": "Rainbow",
+        "desc": "It's a rainbow!!",
+        "num": "8",
+        "c": "true",
+        "c1": "good luck",
+        "c2": "gettin colors :)",
+        "c3": "000000"
+    },
+    {
+        "name": "JPTR Background",
+        "desc": "This is a old imadejptr reference. The image being the background of the old website and the border being the same color as the homepage (#00151f).",
+        "num": "9",
+        "c": "false",
+        "img": "https://cdn.glitch.global/9c8c96bb-a059-45d7-8b2b-d37ee6083aa6/bg.png",
+        "desc2": "Originally used in the old versions of imadejptr, this old relic is the one reminder of the past."
+    },
+    {
+        "name": "Pen Pen",
+        "desc": "Wanted to add another Evangelion reference to my website since there seems to be no end in sight for adding anything Evangelion related. Decided to give Pen Pen the erect-crested penguin a spot here with every other moon I made.",
+        "num": "10",
+        "c": "false",
+        "img": "https://static.wikia.nocookie.net/evangelion/images/1/17/Pen_Pen.png",
+        "desc2": "Pen Pen is an erect-crested penguin, and the coolest pet in the whole show."
+    },
+    {
+        "name": "Tiktok",
+        "desc": "Made this image from scratch, wanted to encapsulate the absolute hell that is tiktok. Subway Surfers? Or baby getting chased by a monster? I hate this one to be honest",
+        "num": "11",
+        "c": "false",
+        "img": "",
+        "desc2": "No Image For Reference."
+    },
+    {
+        "name": "Galaxy",
+        "desc": "I found a random picture of a galaxy from the internet, and I've had it for the last 4 years so I have no clue where it came from. We can admire its beauty though.",
+        "num": "12",
+        "c": "false",
+        "img": "",
+        "desc2": "No Image For Reference."
+    },
+    {
+        "name": "Monke Swimming",
+        "desc": "<i>❝ Life could be dream, life could be dream❞ - The Chords</i>",
+        "num": "13",
+        "c": "false",
+        "img": "https://i.ytimg.com/vi/0wMbuMETEcs/maxresdefault.jpg",
+        "desc2": "<a href='https://www.youtube.com/watch?v=0wMbuMETEcs' target='_blank'>Here</a>"
+    },
+    {
+        "name": "Blue & White",
+        "desc": "Read the name, I wanted to try to make something light but I feel like this design could've been better.",
+        "num": "14",
+        "c": "true",
+        "c1": "b1ccff",
+        "c2": "7fabff",
+        "c3": "ffffff"
+    },
+    {
+        "name": "Wojak Shock",
+        "desc": "OH MY GOD!! ",
+        "num": "15",
+        "c": "false",
+        "img": "https://i.redd.it/the-resemblance-of-todd-to-the-wojak-meme-is-uncanny-v0-bhz2o2xqe69b1.jpg?width=600&format=pjpg&auto=webp&s=dd72e87302b4695a39dfc838297a05351a14884d",
+        "desc2": "<a href='https://www.reddit.com/r/TheBoys/comments/14n3zku/the_resemblance_of_todd_to_the_wojak_meme_is/' target='_blank'>This is where I found it</a>"
+    },
+    {
+        "name": "Bad Breath",
+        "desc": "There is a story with this one. There is a dude with horrible breath that is stinking up the whole room. The other dude behind him starts having a mental breakdown as the horrible breath slowly turned to smoke.",
+        "num": "16",
+        "c": "true",
+        "c1": "b1ccff",
+        "c2": "28416e",
+        "c3": "000000"
+    },
+    {
+        "name": "Moonface",
+        "desc": "I wanted to make something like the McDonalds old Moon Man, so I decided to make the colors resemble the moon and use a face that I drew a long time ago.",
+        "num": "17",
+        "c": "true",
+        "c1": "c9c9c9",
+        "c2": "a7a7a7",
+        "c3": "000000"
+    },
+    {
+        "name": "R-Block",
+        "desc": "Made this one from scratch. It's just an ad for a youtube channel, its called R-Block. I'm honestly really sorry for this one.",
+        "num": "18",
+        "c": "false",
+        "img": "https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/channels4_profile.png",
+        "desc2": "<a class='yt' href='https://youtube.com/@rblock4' target='_blank'>Subscribe to R-Block</a>"
+    },
+    {
+        "name": "Pink & Orange",
+        "desc": "Just a simple gradient coming on a 45 degree angle.",
+        "num": "19",
+        "c": "true",
+        "c1": "ffa6f6",
+        "c2": "ffbf6c",
+        "c3": "000000"
+    },
+    {
+        "name": "Pete The Rock",
+        "desc": "Say hello to Pete The Rock :)",
+        "num": "20",
+        "c": "false",
+        "img": "https://static.wikia.nocookie.net/theadventuresofgarythesnail/images/6/64/Googly_pete.png",
+        "desc2": "I love Pete The Rock!"
+    }
+]

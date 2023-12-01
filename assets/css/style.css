@@ -411,3 +411,55 @@ a.box-f {
 .h3 {
     font-size: larger;
 }
+
+#moon_img {
+    width: 345px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    background-color: #bec83a;
+    border: #000000 7px solid;
+    border-radius: 1em;
+}
+
+#moon_desc {
+    width: 69%;
+}
+
+#moon_ext {
+    font-size: large;
+    margin: 1em;
+}
+
+#moon_ext img {
+    width: 30%;
+}
+
+#moon_ext p {
+    font-size: smaller;
+}
+
+footer {
+    text-align: center;
+    padding: 5em;
+    font-style: italic;
+}
+
+.yt {
+    background-color: #FF0000;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+    border-radius: 1em;
+    transition: 0.2s;
+}
+
+.yt:hover {
+    background-color: white;
+    color: #961dd1;
+}
+
+.dbot:hover {
+    color: red;
+}

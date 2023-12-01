@@ -9,11 +9,15 @@ function recent() {
         '{ "num":"2" , "date":"11/15/23" },' +
         '{ "num":"3" , "date":"11/16/23" },' +
         '{ "num":"4" , "date":"11/17/23" },' +
-        '{ "num":"5" , "date":"11/18/23" } ]}';
+        '{ "num":"5" , "date":"11/18/23" },' +
+        '{ "num":"6" , "date":"11/20/23" },' +
+        '{ "num":"7" , "date":"11/22/23" },' +
+        '{ "num":"8" , "date":"11/27/23" },' +
+        '{ "num":"9" , "date":"11/30/23" } ]}';
     let setad = JSON.parse(dates);
     let day = document.getElementById("day");
     let opt = document.createElement("option");
-    let PUTNUMBERHERE = 5;
+    let PUTNUMBERHERE = 9;
     opt.value = PUTNUMBERHERE;
     opt.innerHTML = setad.dates[PUTNUMBERHERE - 1].date + ' <span class="current">(current)</span>';
     opt.selected = true;
